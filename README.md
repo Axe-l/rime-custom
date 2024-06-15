@@ -97,13 +97,13 @@
 ℞ 安装或更新全部文件
 
 ```
-bash rime-install Axe-l/rime-ice:others/recipes/full
+bash rime-install Axe-l/rime-custom:others/recipes/full
 ```
 
 ℞ 安装或更新所有词库文件（包含下面三个）
 
 ```
-bash rime-install iDvel/rime-ice:others/recipes/all_dicts
+bash rime-install Axe-l/rime-custom:others/recipes/all_dicts
 ```
 
 ℞ 安装或更新拼音词库文件（ `cn_dicts/` 目录内所有文件）
