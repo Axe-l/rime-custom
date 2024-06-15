@@ -1,0 +1,42 @@
+patch:
+  style:
+    #color_scheme: ms_babyblue
+    #color_scheme: ms_blue
+    color_scheme: 紫色
+    font_face: "PingFangSC-Regular"
+    font_point: 10
+    horizontal: true
+    inline_preedit: true
+    label_font_point: 10
+    layout:
+      border: 2
+      round_corner: 10
+      margin_x: 0
+      margin_y: 0
+      hilite_padding: 15
+      hilite_spacing: 5
+      spacing: 0
+      candidate_spacing: 0
+  preset_color_schemes:
+    ms_babyblue:
+      紫色:
+        name: "axe"
+        font_face: "PingFangSC-Regular"
+        font_point: 18.0
+        candidate_list_layout: stacked
+        text_orientation: horizontal
+        inline_preedit: true
+        color_space: srgb
+        back_color: 0xDEB250B3
+        border_color: 0xA349A4
+        candidate_back_color: 0x00000000
+        candidate_text_color: 0xFFFFFF
+        comment_text_color: 0xFFFFFF
+        label_color: 0xFFFFFF
+        hilited_candidate_back_color: 0xCA22B14B
+        hilited_candidate_text_color: 0xFFFFFF
+        hilited_comment_text_color: 0xFFFFFF
+        hilited_candidate_label_color: 0xEDB5E5C3
+        preedit_back_color: 0x922194
+        text_color: 0xFFFFFF
+        hilited_text_color: 0xFFFFFF

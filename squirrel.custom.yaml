@@ -1,0 +1,67 @@
+patch:
+  # ascii_mode、inline、no_inline、vim_mode 等等设定，可参考 /Library/Input Methods/Squirrel.app/Contents/SharedSupport/squirrel.yaml
+  app_options:
+    #com.raycast.macos:
+    #  ascii_mode: true   # 初始爲西文模式
+    #com.microsoft.VSCode:
+    #  ascii_mode: true   # 初始爲西文模式
+    #  vim_mode: true
+    #md.obsidian:
+    #  ascii_mode: true   # 初始爲西文模式
+    #  vim_mode: true
+    #org.alacritty:
+    #  ascii_mode: true   # 初始爲西文模式
+    #com.jetbrains.intellij:
+    #  ascii_mode: true
+    #  vim_mode: true
+
+  style:
+    # 选择皮肤，亮色与暗色主题
+    #color_scheme: purity_of_form_custom
+    #color_scheme_dark: purity_of_form_custom
+    #color_scheme: macos_light
+    #color_scheme_dark: macos_dark
+    color_scheme: 紫色
+    #color_scheme_dark: wechat_dark
+
+    # 预设选项：（可被皮肤覆盖；如果皮肤没写，则默认使用这些属性。）
+    text_orientation: horizontal # horizontal | vertical
+    inline_preedit: true
+    corner_radius: 10
+    hilited_corner_radius: 0
+    border_height: 0
+    border_width: 0
+    line_spacing: 5
+    spacing: 10
+    #candidate_format: '%c. %@'
+    #base_offset: 6
+    font_face: "Lucida Grande"
+    font_point: 21
+    #label_font_face: 'Lucida Grande'
+    label_font_point: 18
+    #comment_font_face: 'Lucida Grande'
+    comment_font_point: 18
+
+  # 皮肤列表
+  preset_color_schemes:
+    紫色:
+      name: "axe"
+      font_face: "PingFangSC-Regular"
+      font_point: 18.0
+      candidate_list_layout: stacked
+      text_orientation: horizontal
+      inline_preedit: true
+      color_space: srgb
+      back_color: 0xDEB250B3
+      border_color: 0xA349A4
+      candidate_back_color: 0x00000000
+      candidate_text_color: 0xFFFFFF
+      comment_text_color: 0xFFFFFF
+      label_color: 0xFFFFFF
+      hilited_candidate_back_color: 0xCA22B14B
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_comment_text_color: 0xFFFFFF
+      hilited_candidate_label_color: 0xEDB5E5C3
+      preedit_back_color: 0x922194
+      text_color: 0xFFFFFF
+      hilited_text_color: 0xFFFFFF
